@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Run Myth Help') {
       steps {
-        sh './jenkins/myscript.sh' 
+        sh './jenkins/mythscript.sh' 
       }
     }
     stage('Run Myth Vulnerability Scan') {
