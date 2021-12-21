@@ -11,16 +11,10 @@ pipeline {
         sh 'chmod +x mythscript.sh'
       }
     }
-    stage('Run Myth Help') {
+    stage('Run Myth Script') {
       steps {
-        sh './mythscript.sh'
+        sh 'mythscript.sh'
       }
     }
-    stage('Run Myth Vulnerability Scan') {
-      steps {
-        sh 'myth a modifier_reentrancy.sol'
-      }
-    }
-
   }
 }
