@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Run Myth Help') {
       steps {
-        sh '/home/delixus/Downloads/myth-scan/script1.sh' 
+        sh './jenkins/myscript.sh' 
       }
     }
     stage('Run Myth Vulnerability Scan') {
