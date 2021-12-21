@@ -8,12 +8,12 @@ pipeline {
     }
     stage('Run Myth Help') {
       steps {
-        sh 'myth --help'
+        sh 'sudo myth --help'
       }
     }
     stage('Run Myth Vulnerability Scan') {
       steps {
-        sh 'myth a modifier_reentrancy.sol'
+        sh 'sudo myth a modifier_reentrancy.sol'
       }
     }
 
