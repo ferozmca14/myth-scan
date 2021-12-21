@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Run Myth Help') {
       steps {
-        sh 'myth --help'
+        sh '/home/delixus/.local/bin/myth --help'
       }
     }
     stage('Run Myth Vulnerability Scan') {
