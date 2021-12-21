@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Run Myth Script') {
       steps {
-        sh 'mythscript.sh'
+        sh './scripts/mythscript.sh'
       }
     }
   }
