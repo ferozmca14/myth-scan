@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Execute command permission') {
       steps {
-        sh 'chmod +x mythscript.sh'
+        sh 'chmod +x ./scripts/mythscript.sh'
       }
     }
     stage('Run Myth Script') {
