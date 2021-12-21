@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('SCM') {
       steps {
-        sh 'git branch: 'main', url: 'https://github.com/safemoonprotocol/Safemoon.sol.git'
+        sh 'git branch: 'master', url: 'https://github.com/ferozmca14/myth-scan.git'
       }
     }
     stage('Run Myth  Vulnerability Scan') {
