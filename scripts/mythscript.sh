@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Export Environment Variables
-export PATH="~/.local/bin:$PATH"
+export PATH="~/.local/bin/myth:$PATH"
 
 #Executes the myth help command
 myth --help
