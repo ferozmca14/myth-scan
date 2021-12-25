@@ -2,6 +2,7 @@
 
 #Export Environment Variables
 PATH="/home/delixus/.local/bin:$PATH"
+export $PATH
 
 #Executes the myth help command
 myth --help
