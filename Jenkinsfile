@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+      PATH = "/home/delixus/.local/bin:$PATH"
+}
   stages {
     stage('SCM') {
       steps {
